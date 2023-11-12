@@ -40,7 +40,7 @@ function AppSection(props: IAppSectionProps) {
       id={props.headerTxt ?? ""}
     >
       {props.headerTxt && !hideHeaderTxt ? (
-        <div className="flex items-center justify-center flex-col gap-2 capitalize">
+        <div className="flex items-center justify-center flex-col gap-12 capitalize">
           <AppText textTag="h2" extraLarge light defaultColor>
             {props.headerTxt}
           </AppText>
