@@ -220,7 +220,7 @@ function SkillsSection() {
         <div className="lg:basis-2/4 basis-full flex flex-col sm:gap-12 gap-9">
           <SkillsSubSection headerTxt={"Programming Languages"} skills={programmingSkills} />
           <SkillsSubSection headerTxt={"Cloud"} skills={cloudSkills} />
-          <SkillsSubSection headerTxt={"Data Engineering"} skills={dataEngineeringSkills} />
+          <SkillsSubSection headerTxt={"Machine Learning"} skills={machineLearningSkills} />
           <SkillsSubSection headerTxt={"Monitoring"} skills={monitoringSkills} />
         </div>
 
@@ -228,7 +228,8 @@ function SkillsSection() {
           <SkillsSubSection headerTxt={"Backend"} skills={backendSkills} />
           <SkillsSubSection headerTxt={"Databases"} skills={databaseSkills} />
           <SkillsSubSection headerTxt={"Frontend"} skills={frontendSkills} />
-          <SkillsSubSection headerTxt={"Machine Learning"} skills={machineLearningSkills} />
+          <SkillsSubSection headerTxt={"Data Engineering"} skills={dataEngineeringSkills} />
+          
         </div>
       </div>
     </AppSection>

@@ -5,7 +5,7 @@ import HeaderSection from "@/Components/HeaderSection";
 import SkillsSection from "@/Components/SkillsSection";
 import EducationSection from "@/Components/EducationSection";
 // import CertificationsSection from "@/components/CertificationsSection";
-// import ExperienceSection from "@/components/ExperienceSection";
+import ExperienceSection from "@/Components/ExperienceSection";
 // import ProjectsSection from "@/components/ProjectsSection";
 
 function Main() {
@@ -14,6 +14,7 @@ function Main() {
       <HeaderSection />
       <EducationSection />
      <SkillsSection />
+     <ExperienceSection />
       {/* <SkillsSection />
       <ExperienceSection />
       <ProjectsSection/>
